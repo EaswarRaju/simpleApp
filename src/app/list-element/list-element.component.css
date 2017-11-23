@@ -1,0 +1,29 @@
+ul {
+    padding-right: 50px;
+}
+
+li {
+    direction: rtl;
+    text-align: right;
+}
+
+.label {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.planet {
+    color: blue;
+}
+
+.country {
+    color: red;
+}
+
+.city {
+    color: coral;
+}
+
+.office {
+    color: blueviolet;
+}

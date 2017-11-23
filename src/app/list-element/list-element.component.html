@@ -1,0 +1,9 @@
+<ul>
+    <li>
+        <div class="label" [ngClass]="data.type" (click)="printLabel()">{{data.label}}</div>
+        <div *ngFor="let childItem of data.children">
+            <app-list-element [data]="childItem" [parentLabel]="data.label + (parentLabel ? ' -> ' + parentLabel : '')">
+            </app-list-element>
+        </div>
+    </li>
+</ul>
